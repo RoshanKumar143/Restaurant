@@ -1,0 +1,214 @@
+body{
+    margin:auto;
+    background:rgb(159, 159, 189)
+}
+
+a{
+    text-decoration:none
+}
+/* head-section */
+header{
+    height:60px;
+    /*border:5px solid hotpink;*/
+    background-color: #3b2632;
+}
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left:1%
+}
+#social{
+    float: right;
+}
+.socialLogo{
+    height:50px
+}
+
+/* search-section */
+#search{
+    height:450px;
+    /* border:10px groove green;*/
+    background-image: url("Images/food-wallpaper.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+.logo{
+    height:150px;
+    width: 150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 46%;
+    margin-top: 2%; 
+    position: absolute;
+    font-size:90px;
+    animation: revolve 12s infinite; 
+}
+.logo > span{
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+@keyframes revolve{
+    0%{
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left:20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left:40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left:80%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left:40%;
+        transform: rotate(360deg);
+    }
+}
+
+
+#heading{
+    font-size:60px;
+    color:white;
+    margin-left: 33%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-left: 30%;
+    margin-top: 22%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+#restSelect{
+    width:59%;
+} 
+
+
+/* quick-search */
+#quicksearch{
+    /* height: 600px;
+    border: 10px solid red; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.quickHeading{
+    color:#3b2632;
+    font-size:30px;
+    font-weight:bold;
+    display: block; 
+    margin-left: 2%;
+}
+.quickSubHeading{
+    font-size:20px;
+    color:rgb(10, 27, 180);
+    line-height: 2;
+    margin-left: 2%;
+}
+#SearchPage{
+    margin-left: 10%;
+    color:white;
+    border: 10px groove grey;
+    background-color: cadetblue;
+    font-size: 18px;
+}
+
+#tileBox{
+    display:flex;
+    flex-wrap: wrap;
+}
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    box-shadow: 10px 20px 10px #3b2632; 
+}
+
+.tileComponent1{
+    width:52%;
+}
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%;  
+}
+.tileComponent2{
+    width:45%;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+.compHeading > a{
+    color:#3b2632 !important;
+}
+.compSubHeading{
+    font-size: 20px;
+    color:rgb(133, 62, 62)
+}
+
+
+/* footer-section */
+footer{
+    /* border:10px double orange */
+    background-color: #3b2632;
+    text-align: center;
+    color: white
+}
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    body{
+        background-color: rgb(241, 168, 234);
+    }
+
+    .tileContainer{
+        width:90%;
+    }
+}

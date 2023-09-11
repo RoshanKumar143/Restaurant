@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Search Page</title>
+    <link rel="icon" href="https://png.pngtree.com/template/20200704/ourmid/pngtree-restaurant-logo-design-vector-template-image_388753.jpg"/>
+    <link rel="stylesheet" href="SearchPage.css"/>
+<!-- Bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<!-- head-section -->
+    <header>
+        <!-- <div id="brand">
+            <p id="titlelogo">e!</p>
+        </div>
+        <div id="login">
+            <a id="signin" href="#">SignIn</a>  
+            <a id="create" href="#">Create Account</a> 
+            <a id="home" href="index.html" title="Onclick To HomePage ">Home</a> 
+        </div> -->
+        <nav class="navbar navbar-expand-lg text-bg-secondary p-3">
+            <div class="container-fluid">
+                <div id="brand">
+                    <p id="titlelogo">e!</p>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" id="nav-items">
+                    <a class="nav-link"  href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item" id="nav-items">
+                    <a class="nav-link" href="#">SignIn</a>
+                  </li>
+                  <li class="nav-item" id="nav-items">
+                    <a class="nav-link" href="#">Create Account</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- <input id="search-button" type="search" placeholder="Search For Results"/> SEARCH -->
+<!-- Listing-details -->
+    <section id="leftsidebar">
+        <!-- <div class="leftsidecontainer1"> -->
+            <h2 class="heading1">Cuisine Filter</h2>
+            <hr/>
+            <div class="filter">
+                <input class="check" type="radio"/>All
+                <br/>
+                <input type="radio">North India
+                <br/>
+                <input type="radio">South Indian
+                <br/>
+                <input type="radio">Chinese
+                <br/>
+                <input type="radio">Fast Food
+                <br/>
+                <input type="radio">Street Food
+            </div>    
+        <!-- </div>     -->
+        <!-- <div class="leftsidecontainer2">     -->
+            <h2 class="heading2">Cost Filter </h2>
+            <hr/>
+            <div class="filter">
+                <input type="radio"/>All
+                <br/>
+                <input type="radio">0-300
+                <br/>
+                <input type="radio">301-600
+                <br/>
+                <input type="radio">601-900
+                <br/>
+                <input type="radio">901-5000
+                <br/>
+                <br/>
+            </div>
+        <!-- </div>     -->
+    </section>
+
+
+
+    <section id="rightsidebar">
+        <article class="container1">
+            <img id="cont1-img" src="Images/lunch.png" alt="text" />
+            <div class="text">
+                <h2 id="textmainheading">Full Meals</h2>
+                        <p class="subheader">Road No-10, New Colony, Manju ka Tilla, Hyderabad</p>
+                        <p class="subheader">Average</p>
+                        <p class="subheader">Rs.450</p>
+                <div class="buttons">
+                    <div class="button1">
+                        <button id="b-1">Lunch</button>
+                        <button id="b-2">Nightlife</button>
+                    </div>
+                    <div class="button2">
+                        <button id="b-3">North Indian</button>
+                        <button id="b-4">Chinese</button>  
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="container2">
+            <img id="cont1-img" src="Images/noodles.jpg" alt="text" />
+            <article class="text">
+                <h2 id="textmainheading">Noodles</h2>
+                <p class="subheader">Raod NO-4, Ram Nagar, Hyderabad</p>
+                <p class="subheader">Average</p>
+                <p class="subheader">Rs.450</p>
+                <div class="buttons">
+                    <div class="button1">
+                        <button id="b-1">Snacks</button>
+                        <button id="b-2">Tiffins</button>
+                    </div>
+                    <div class="button2">
+                        <button id="b-3">North Indian</button>
+                        <button id="b-4">South Indian</button>  
+                    </div>
+                </div>
+            </article>
+        </article>
+    </section>
+
+<!-- Bootstrap-link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+    /* margin:auto; */
+    background:rgb(159, 159, 189)
+}
+
+a{
+    text-decoration:none
+}
+/* head-section */
+/* header{
+    height:60px;
+    border:5px solid hotpink;
+    background-color: #3b2632;
+} */
+#nav-items{
+    text-align: center;
+}
+#nav-items:hover{
+    color: darkgrey;
+    border: 1px solid rgb(59, 83, 59);
+    transition: .4s ease;
+    font-size:19px;
+}
+#brand{
+    float: left;
+    padding-bottom: 60px;
+    margin-left:1%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+}
+#titlelogo{
+    color:white;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+/*
+#login{
+    float: right;
+    margin-top: 1.5%;
+    margin-right:5%;
+    font-size: 20px;
+}
+#signin{
+    margin-right: 15px; 
+    color: white;  
+}
+#create{
+    margin-right: 15px; 
+    color: white;
+}
+#home{
+    color:white
+}
+#signin:hover{
+    border: 2px solid red;
+    color: black;
+    background-color: white;    
+}
+#create:hover{
+    border: 2px solid red;
+    color: black;
+    background-color: white;
+}
+#home:hover{
+    border: 2px solid red;
+    color: black;
+    background-color: white;
+}
+ */
+
+/* #social{
+    float: right; 
+}
+.socialLogo{
+    height:50px; 
+    width: 55px;
+} */
+
+/* Listing-details */
+
+#leftsidebar{
+    float: left; 
+    width: 20%;
+    /* height: 520px;  */
+    background-color: chocolate;
+    border: 1px solid red;
+    margin-left: 5%;
+    margin-top:2%;   
+}
+
+.heading1{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 1%;
+}
+.heading2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+}
+.filter{
+    margin-left: 15px;
+    margin-top: 5%;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/* .leftsidecontainer1{
+    background-color: grey;
+    margin: 10px;
+} */
+
+/* .leftsidecontainer2{
+    background-color: grey;
+    margin: 10px;
+    padding-top: 15px;
+} */
+
+#rightsidebar{
+    float: left; 
+    margin-left:3%;
+    width: 60%;
+    /*height: 500px; */
+    /* background-color: darkgray; */
+    /* border: 15px solid rgb(172, 163, 163); */
+    margin-top:0;
+/* Added now */
+    /* float: right; */
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.container1{
+    margin: 2%;
+    width: 94%;
+    /* background-color: #3b2632; */
+    /* width: 58%;  */
+    /* border: 10px solid rgb(148, 140, 140); */
+    /* height:300px; */
+    border: 15px solid darkgrey;
+    border-radius:20px;
+    position: relative;
+    height: 250px;
+}
+#cont1-img{
+    display: flex;   /*note check once*/
+    float: left;
+    border-radius: 20px;
+    width:40%;      /*note check once*/
+    height: 190px;
+    position: absolute;
+    padding-top: 3.5%;
+    padding-left: 10px;
+    
+}
+.text{
+    position: absolute;
+    width: 55%;
+    float: right;
+    /* left: 700px; */
+    margin-left:45% ;
+    line-height: 13px;
+}
+#textmainheading{
+    font-size: 26px;
+    color: green;
+    text-align: center;
+    margin-right: 30%;
+    font-weight: bolder;
+}
+.subheader{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    padding-top:1%; 
+}
+.buttons{
+    position: absolute;
+    display: flex; 
+    flex-wrap: wrap;
+    /* background-color: #3b2632; */
+    width: 55%;
+    /* display: inline-block; */
+    /* height: 50px; */
+    
+}
+.button1{
+    display: flex; 
+    height:29px;
+}
+#b-1{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none; 
+    border-radius: 6px;   
+}
+#b-2{
+    margin-left: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px; 
+}
+.button2{
+    display: flex; 
+    margin-top: 5%;
+    height:29px;
+}
+#b-3{
+    background-color: green;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px; 
+}
+#b-4{
+    margin-left: 25px;
+    background-color: rgb(156, 156, 39);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px; 
+}
+
+.container2{
+    margin-left: 2%;
+    width: 94%;
+    /* background-color: #3b2632; */
+    /* width: 58%;  */
+    /* border: 10px solid rgb(148, 140, 140); */
+    /* height:300px; */
+    border: 15px solid darkgrey;
+    border-radius:20px;
+    position: relative;
+    height: 250px;
