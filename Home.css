@@ -203,12 +203,12 @@ ul{
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1080px){
     body{
         background-color: rgb(241, 168, 234);
     }
 
     .tileContainer{
-        width:90%;
+        width:45%;
     }
 }
