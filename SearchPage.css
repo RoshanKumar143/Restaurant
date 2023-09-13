@@ -13,6 +13,11 @@ a{
     border:5px solid hotpink;
     background-color: #3b2632;
 } */
+.navbar{
+    background-color: grey;
+    position: fixed;
+}
+
 #nav-items{
     text-align: center;
 }
@@ -37,57 +42,14 @@ a{
     margin-top: 0px;
     margin-left: 15px;
 }
-/*
-#login{
-    float: right;
-    margin-top: 1.5%;
-    margin-right:5%;
-    font-size: 20px;
-}
-#signin{
-    margin-right: 15px; 
-    color: white;  
-}
-#create{
-    margin-right: 15px; 
-    color: white;
-}
-#home{
-    color:white
-}
-#signin:hover{
-    border: 2px solid red;
-    color: black;
-    background-color: white;    
-}
-#create:hover{
-    border: 2px solid red;
-    color: black;
-    background-color: white;
-}
-#home:hover{
-    border: 2px solid red;
-    color: black;
-    background-color: white;
-}
- */
-
-/* #social{
-    float: right; 
-}
-.socialLogo{
-    height:50px; 
-    width: 55px;
-} */
 
 /* Listing-details */
 
 #leftsidebar{
     float: left; 
     width: 20%;
-    /* height: 520px;  */
-    background-color: chocolate;
-    border: 1px solid red;
+    border: 10px groove grey;
+    background-color: rgb(136, 130, 130);
     margin-left: 5%;
     margin-top:2%;   
 }
@@ -109,27 +71,11 @@ a{
     font-size: 18px;
 }
 
-/* .leftsidecontainer1{
-    background-color: grey;
-    margin: 10px;
-} */
-
-/* .leftsidecontainer2{
-    background-color: grey;
-    margin: 10px;
-    padding-top: 15px;
-} */
-
 #rightsidebar{
     float: left; 
     margin-left:3%;
     width: 60%;
-    /*height: 500px; */
-    /* background-color: darkgray; */
-    /* border: 15px solid rgb(172, 163, 163); */
     margin-top:0;
-/* Added now */
-    /* float: right; */
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
@@ -137,10 +83,7 @@ a{
 .container1{
     margin: 2%;
     width: 94%;
-    /* background-color: #3b2632; */
-    /* width: 58%;  */
-    /* border: 10px solid rgb(148, 140, 140); */
-    /* height:300px; */
+    background-color: rgb(136, 130, 130);
     border: 15px solid darkgrey;
     border-radius:20px;
     position: relative;
@@ -161,9 +104,9 @@ a{
     position: absolute;
     width: 55%;
     float: right;
-    /* left: 700px; */
+    line-height: 10px;
     margin-left:45% ;
-    line-height: 13px;
+    line-height: 19px;
 }
 #textmainheading{
     font-size: 26px;
@@ -231,39 +174,83 @@ a{
 .container2{
     margin-left: 2%;
     width: 94%;
-    /* background-color: #3b2632; */
-    /* width: 58%;  */
-    /* border: 10px solid rgb(148, 140, 140); */
-    /* height:300px; */
+    background-color: rgb(136, 130, 130);
     border: 15px solid darkgrey;
     border-radius:20px;
     position: relative;
     height: 250px;
 }
 
+
 @media screen and (max-width:1000px){
-    body{
-        background-color: lightpink;
-    }
-    #leftsidebar{
-        width: 28%;
-        margin-left: 1%;
-        font-size:small;
-    }
+    /* *{
+        background-color: rgb(136, 130, 130);
+    } */
+/* media querys for rightsidebar */    
     #rightsidebar{
         width: 70%;
         margin-left: 1%;
     }
     .container1{
-        height: 400px ;
+        height: 343px ;
+        background-color: rgb(136, 130, 130);
     }
     #cont1-img{
-        width: 100%;
+        width: 90%;
+        margin: 1%;
+        height: 150px;
     }
     .text{
-        margin-top: 200px;
+        margin-top: 155px;
         margin-left: 0px;
-        width: 100%;
+        width: 95%;
         text-align: center;
+        line-height: 19px;
     }
-}
+    #textmainheading{
+        padding-left: 10%;
+        width: 80%;
+        font-size: 21px;
+    }
+    .subheader{
+        font-size: 15px;
+        font-weight:lighter;
+    }
+    .buttons{
+        margin-left: 10%;
+    }
+
+/* media querie's for leftsidebar */
+    #leftsidebar{
+        width: 28%;
+        margin-left: 1%;
+        margin-top: 15%;
+        border-radius: 14px;
+        background-color: rgb(136, 130, 130);
+        border: none;
+        border: 10px groove grey;
+    }
+    .container2{
+        height:325px;
+        background-color: rgb(136, 130, 130);
+    }
+    .filter{
+        font-size: 12px;
+        font-weight: bolder;  
+    }
+    .heading1{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 5%;
+    }
+    .heading2{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 5%;
+    }
+
+
+    .navbar{
+        background-color: rgb(100, 75, 75);
+
+    }
