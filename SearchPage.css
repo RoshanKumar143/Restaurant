@@ -219,7 +219,10 @@ a{
     .buttons{
         margin-left: 10%;
     }
-
+    .container2{
+        height:340px;
+        background-color: rgb(136, 130, 130);
+    }
 /* media querie's for leftsidebar */
     #leftsidebar{
         width: 28%;
@@ -230,10 +233,7 @@ a{
         border: none;
         border: 10px groove grey;
     }
-    .container2{
-        height:325px;
-        background-color: rgb(136, 130, 130);
-    }
+
     .filter{
         font-size: 12px;
         font-weight: bolder;  
