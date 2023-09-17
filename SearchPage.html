@@ -12,18 +12,15 @@
 <body>
 <!-- head-section -->
     <header>
-        <!-- <div id="brand">
-            <p id="titlelogo">e!</p>
-        </div>
-        <div id="login">
-            <a id="signin" href="#">SignIn</a>  
-            <a id="create" href="#">Create Account</a> 
-            <a id="home" href="index.html" title="Onclick To HomePage ">Home</a> 
-        </div> -->
-        <nav class="navbar navbar-expand-lg text-bg-secondary p-3">
+        <nav class="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
                 <div id="brand">
-                    <p id="titlelogo">e!</p>
+                    <div id="titlelogo">
+                        <span><a href="index.html">e!</a></span>
+                    </div>
+                </div>
+                <div id="title-emoji">
+                    <p>&#128523;</p>
                 </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +49,7 @@
 <!-- Listing-details -->
     <section id="leftsidebar">
         <!-- <div class="leftsidecontainer1"> -->
-            <h2 class="heading1">Cuisine Filter</h2>
+            <h2 class="heading1">Cuisines</h2>
             <hr/>
             <div class="filter">
                 <input class="check" type="radio"/>All
@@ -66,65 +63,100 @@
                 <input type="radio">Fast Food
                 <br/>
                 <input type="radio">Street Food
+                <br/>
+                <input type="radio">Continental Food
+                <br/>
+                <br/>
             </div>    
         <!-- </div>     -->
         <!-- <div class="leftsidecontainer2">     -->
-            <h2 class="heading2">Cost Filter </h2>
+            <h2 class="heading2">Price</h2>
             <hr/>
             <div class="filter">
                 <input type="radio"/>All
                 <br/>
-                <input type="radio">0-300
+                <input type="radio">Cheap Eats
                 <br/>
-                <input type="radio">301-600
+                <input type="radio">Mid-range
                 <br/>
-                <input type="radio">601-900
-                <br/>
-                <input type="radio">901-5000
+                <input type="radio">Fine Dining
                 <br/>
                 <br/>
             </div>
         <!-- </div>     -->
+        <h2 class="heading2">Locations</h2>
+        <hr/>
+        <div class="filter">
+            <input type="radio"/>All
+            <br/>
+            <input type="radio">Jubilee Hills/Banjara Hills
+            <br/>
+            <input type="radio">Hi-tech City/Gachibowli
+            <br/>
+            <input type="radio">Paradise Circle
+            <br/>
+            <br/>
+        </div>
     </section>
 
 
 
     <section id="rightsidebar">
         <article class="container1">
-            <img id="cont1-img" src="Images/lunch.png" alt="text" />
+            <img id="cont1-img" src="Images/AB's.jpg" alt="text" />
             <div class="text">
-                <h2 id="textmainheading">Full Meals</h2>
-                        <p class="subheader">Road No-10, New Colony, Manju ka Tilla, Hyderabad</p>
-                        <p class="subheader">Average</p>
-                        <p class="subheader">Rs.450</p>
+                <h2 id="textmainheading">AB's-Restaurant</h2>
+                        <p class="subheader">4th floor, Above Bajaj Electronics,Road NO: 36, Jubilee Hills, Hyderabad</p>
+                        <!-- <p class="subheader">Average</p>
+                        <p class="subheader">Rs.450</p> -->
                 <div class="buttons">
                     <div class="button1">
                         <button id="b-1">Lunch</button>
-                        <button id="b-2">Nightlife</button>
+                        <button id="b-2">Dinner</button>
                     </div>
                     <div class="button2">
-                        <button id="b-3">North Indian</button>
-                        <button id="b-4">Chinese</button>  
+                        <button id="b-3">Biryani's</button>
+                        <button id="b-4">Snacks</button>  
                     </div>
                 </div>
             </div>
         </article>
 
-        <article class="container2">
-            <img id="cont1-img" src="Images/noodles.jpg" alt="text" />
+        <article class="container1">
+            <img id="cont1-img" src="Images/China Bistro.jpg" alt="text" />
             <article class="text">
-                <h2 id="textmainheading">Noodles</h2>
-                <p class="subheader">Raod NO-4, Ram Nagar, Hyderabad</p>
-                <p class="subheader">Average</p>
-                <p class="subheader">Rs.450</p>
+                <h2 id="textmainheading">China Bistro</h2>
+                <p class="subheader">Ground and 1st Floor, Road No: 1,Jubilee Hills</p>
+                <!-- <p class="subheader">Average</p>
+                <p class="subheader">Rs.450</p> -->
                 <div class="buttons">
                     <div class="button1">
-                        <button id="b-1">Snacks</button>
-                        <button id="b-2">Tiffins</button>
+                        <button id="b-1">Fast Food</button>
+                        <button id="b-2">Pasta</button>
                     </div>
                     <div class="button2">
-                        <button id="b-3">North Indian</button>
-                        <button id="b-4">South Indian</button>  
+                        <button id="b-3">South Indian</button>
+                        <button id="b-4">Dinner</button>  
+                    </div>
+                </div>
+            </article>
+        </article>
+
+        <article class="container1">
+            <img id="cont1-img" src="Images/Rotis.jpg" alt="text" />
+            <article class="text">
+                <h2 id="textmainheading">Rotis</h2>
+                <p class="subheader">Hitech City, Hyderabad</p>
+                <!-- <p class="subheader">Average</p>
+                <p class="subheader">Rs.450</p> -->
+                <div class="buttons">
+                    <div class="button1">
+                        <button id="b-1">Chinese</button>
+                        <button id="b-2">Mexican</button>
+                    </div>
+                    <div class="button2">
+                        <button id="b-3">South Indian</button>
+                        <button id="b-4">Italian</button>  
                     </div>
                 </div>
             </article>
