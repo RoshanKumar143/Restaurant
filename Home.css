@@ -316,16 +316,9 @@ ul{
 
 } 
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:700px){
     body{
         background-color: rgb(218, 129, 129);
     }
 } 
 
-<<<<<<< HEAD
-=======
-    .tileContainer{
-        width:43%;
-    }
-}
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944

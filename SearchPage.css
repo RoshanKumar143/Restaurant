@@ -14,11 +14,7 @@ a{
     background-color: #3b2632;
 } */
 .navbar{
-<<<<<<< HEAD
     background-color: rgb(197, 184, 184);
-=======
-    background-color: grey;
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     position: fixed;
 }
 
@@ -53,14 +49,10 @@ a{
     float: left; 
     width: 20%;
     border: 10px groove grey;
-<<<<<<< HEAD
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     /* background-color: rgb(136, 130, 130); */
-=======
-    background-color: rgb(136, 130, 130);
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     margin-left: 5%;
     margin-top:2%;   
 }
@@ -127,13 +119,8 @@ a{
 .container1{
     margin: 2%;
     width: 94%;
-<<<<<<< HEAD
     /* background-color: rgb(136, 130, 130); */
     border: 15px solid rgb(221, 219, 230);
-=======
-    background-color: rgb(136, 130, 130);
-    border: 15px solid darkgrey;
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     border-radius:20px;
     position: relative;
     height: 250px;
@@ -155,10 +142,6 @@ a{
     float: right;
     line-height: 10px;
     margin-left:45% ;
-<<<<<<< HEAD
-=======
-    margin-top:3%;
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     line-height: 19px;
 }
 #textmainheading{
@@ -232,7 +215,6 @@ a{
     border-radius:20px;
     position: relative;
     height: 250px;
-<<<<<<< HEAD
 } */
 
 
@@ -240,21 +222,11 @@ a{
 
 @media screen and (max-width:1000px){
 
-=======
-}
-
-
-@media screen and (max-width:1000px){
-    /* *{
-        background-color: rgb(136, 130, 130);
-    } */
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
 /* media querys for rightsidebar */    
     #rightsidebar{
         width: 70%;
         margin-left: 1%;
     }
-<<<<<<< HEAD
 
     #title-emoji{
         float: left;
@@ -272,11 +244,6 @@ a{
         height: 343px ;
         /* background-color: rgb(193, 162, 162); */
         border: 20px solid rgb(167, 164, 190);
-=======
-    .container1{
-        height: 343px ;
-        background-color: rgb(136, 130, 130);
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     }
     #cont1-img{
         width: 90%;
@@ -302,21 +269,13 @@ a{
     .buttons{
         margin-left: 10%;
     }
-<<<<<<< HEAD
 
-=======
-    .container2{
-        height:340px;
-        background-color: rgb(136, 130, 130);
-    }
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
 /* media querie's for leftsidebar */
     #leftsidebar{
         width: 28%;
         margin-left: 1%;
         margin-top: 15%;
         border-radius: 14px;
-<<<<<<< HEAD
         /* background-color: rgb(136, 130, 130); */
         border: none;
         border: 10px groove grey;
@@ -325,13 +284,6 @@ a{
         height:325px;
         background-color: rgb(136, 130, 130);
     } */
-=======
-        background-color: rgb(136, 130, 130);
-        border: none;
-        border: 10px groove grey;
-    }
-
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
     .filter{
         font-size: 12px;
         font-weight: bolder;  
@@ -347,15 +299,7 @@ a{
         margin-top: 5%;
     }
 
-<<<<<<< HEAD
     .navbar{
         background-color: rgb(172, 168, 203);
 
     }
-=======
-
-    .navbar{
-        background-color: rgb(100, 75, 75);
-
-    }
->>>>>>> 7167879dc92dfed19f04367fd714a0a8eafd9944
